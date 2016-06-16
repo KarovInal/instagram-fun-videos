@@ -1,0 +1,109 @@
+.chanels {
+  height: 100%;
+  width: 180px;
+  padding: 0px;
+  padding-right: 20px;
+  margin: 0px;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-color: #f7f7f7;
+  box-shadow: 1px 0px 15px -5px black;
+
+  transition-duration: 300ms;
+}
+
+.chanels_resize {
+  width: 210px;
+}
+
+.chanels__top {
+  height: 70px;
+  width: inherit;
+}
+
+.top__logo {
+  height: 60px;
+  width: 60px;
+  margin-top: 10px;
+  margin-left: 15px;
+  float: left;
+  background: url(../images/logo.png);
+  background-size: 60px 60px;
+}
+
+.top__setting {
+}
+
+.setting__button {
+  float: right;
+  height: 20px;
+  width: 20px;
+  margin-top: 15px;
+  background: top left url(../images/setting.png) no-repeat;
+  background-size: 100%;
+  cursor: pointer;
+}
+
+.chanels__list {
+  padding: 0px;
+  margin-left: 20px;
+  margin-top: 40px;
+}
+
+.list__chanel {
+  height: 40px;
+  width: 200px;
+  list-style-type: none;
+  margin-bottom: 10px;
+  padding: 0;
+}
+
+.chanel__block_logo {
+  width: 35px;
+  height: 35px;
+  float: left;
+  margin-right: 15px;
+}
+
+
+.block_logo__logo {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.chanel__name {
+  display: block;
+  overflow: hidden;
+  float: left;
+  width: 110px;
+  height: inherit;
+  line-height: 40px
+}
+
+.watch__eyes {
+  display: inline-block;
+  width: 25px;
+  height: 40px;
+  background-color: rgba(255,255,255,0);
+  border: none;
+  cursor: pointer;
+  margin-left: 5px
+}
+
+.watch__to_see {
+  background-image: url(../images/watch.png);
+  background-size: 25px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.watch__not_to_see {
+  background-image: url(../images/notWatch.png);
+  background-size: 25px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}

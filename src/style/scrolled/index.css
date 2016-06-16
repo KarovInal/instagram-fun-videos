@@ -1,0 +1,17 @@
+.scrolled {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: solid rgb(98,155,231) 1px;
+  text-align: center;
+  cursor: pointer;
+  margin: auto;
+}
+
+.scrolled span {
+  display: block;
+  color: rgb(35,97,235);
+  font-weight: 300;
+  font-size: 1em;
+  line-height: 80px;
+}

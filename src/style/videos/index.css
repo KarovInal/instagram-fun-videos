@@ -1,0 +1,105 @@
+.container {
+  padding: 0 10px;
+}
+
+.container__videos {
+  max-width: 930px;
+  width: 100%;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: stretch;
+  flex-shrink: 0;
+}
+
+.videos__row {
+  min-height: 1px;
+  position: relative;
+  display: flex;
+  box-sizing: border-box;
+  align-items: stretch;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 30px;
+  flex-grow: 1;
+  vertical-align: baseline;
+}
+
+.elements__video {
+  max-width: 270px;
+  width: 100%;
+  height: auto;
+  box-shadow: 0 2px 10px -4px black;
+  background-color: rgb(251,251,251);
+  position: relative;
+  margin: 0;
+  margin-right: 20px;
+}
+
+.elements__video:last-child {
+  margin-right: 0;
+}
+
+.video__preview {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+.preview__image {
+  width: 100%;
+  height: auto;
+}
+
+.video__description {
+  position: relative;
+  height: 25px;
+}
+
+.description__like {
+  float: left;
+}
+
+.like__count {
+  float: left;
+  font-weight: 300;
+  margin-left: 10px;
+  margin-right: 5px
+}
+
+.like__hurt {
+  float: right;
+  background-image: url(/src/style/images/like.png);
+  background-size: 20px;
+  width: 20px;
+  height: 20px;
+}
+
+.description__chanel {
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.chanel__image {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: rgb(226,226,226)
+}
+
+.empty__video {
+  width: 100%;
+  max-width: 270px;
+  height: auto;
+  position: relative;
+  margin: 0;
+  margin-right: 20px;
+}
+
+.empty__video:last-child {
+  margin-right: 0
+}
